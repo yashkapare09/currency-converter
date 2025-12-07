@@ -20,15 +20,6 @@ It allows users to convert any amount between any two currencies with real-time 
 
 ---
 
-## 📸 Preview
-
-*(Add your project screenshot here)*
-
-```
-![App Preview](./preview.png)
-```
-
----
 
 ## 🛠️ Technologies Used
 
