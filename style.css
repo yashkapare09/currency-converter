@@ -1,0 +1,125 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* MAIN CONTAINER */
+body {
+    background: #f4f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 380px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.12);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* AMOUNT FIELD */
+.amount {
+    margin-bottom: 20px;
+}
+
+#amount-lable {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+#amount {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#amount:focus {
+    border-color: #4a6cf7;
+}
+
+/* DROPDOWNS */
+.dropdown-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.from, .to {
+    width: 100%;
+}
+
+.from p, .to p {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+/* DROPDOWN BOX DESIGN */
+.from-dropdown, .to-dropdown, .from-dropdown.from, .from-dropdown.to {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: #fff;
+    gap: 10px;
+}
+
+/* COUNTRY FLAG IMAGE */
+.from-dropdown img, .to-dropdown img {
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* SELECT BOX */
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* RESULT TEXT */
+.result {
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* BUTTON */
+#btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 17px;
+    background: #4a6cf7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#btn:hover {
+    background: #324fe0;
+}
